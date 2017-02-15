@@ -1,0 +1,82 @@
+$black: #000;
+$rose: #c56b73;
+$white: #fff;
+$gray: #e4e4e4;
+
+body {
+  background-image: url('../images/macback_copy.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+//Main Heading/Page Title
+.heading-text {
+  color: $rose;
+  font-family: 'Sansita', sans-serif;
+  font-size: 35px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+//Profile Picture
+.main-pic {
+  border-radius: 50px;
+  float: left;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+//Skills
+.skills {
+  background-color: transparentize($black, .5);
+  border-radius: 15px 5px;
+  color: $rose;
+  float: left;
+  font-family: 'Sansita', sans-serif;
+  font-size: 20px;
+  height: 400px;
+  margin-bottom: 50px;
+  width: 100%;
+
+  h1 {
+    color: $white;
+  }
+
+  ul {
+    float: left;
+  }
+
+  img {
+    padding-top: 20px;
+  }
+}
+
+.divider {
+  clear: both;
+  color: $rose;
+  font-size: 30px;
+  text-align: center;
+
+  a {
+    color: $rose;
+
+    }
+}
+//Education and Projects sections
+.education,
+.projects {
+  background-color: transparentize($black, .5);
+  border-radius: 15px 5px;
+  clear: both;
+  height: 400px;
+
+  h2 {
+    color: $white;
+    font-family: 'Sansita', sans-serif;
+    text-align: center;
+  }
+
+  img {
+    height: 175px;
+    margin-left: 20px;
+    width: 300px;
+  }
+}

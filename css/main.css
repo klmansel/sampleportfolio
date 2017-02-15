@@ -1,0 +1,62 @@
+body {
+  background-image: url("../images/macback_copy.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%; }
+
+.heading-text {
+  color: #c56b73;
+  font-family: 'Sansita', sans-serif;
+  font-size: 35px;
+  padding-bottom: 50px;
+  text-align: center; }
+
+.main-pic {
+  border-radius: 50px;
+  float: left;
+  padding-left: 100px;
+  padding-right: 100px; }
+
+.skills {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px 5px;
+  color: #c56b73;
+  float: left;
+  font-family: 'Sansita', sans-serif;
+  font-size: 20px;
+  height: 400px;
+  margin-bottom: 50px;
+  width: 100%; }
+  .skills h1 {
+    color: #fff; }
+  .skills ul {
+    float: left; }
+  .skills img {
+    padding-top: 20px; }
+
+.divider {
+  clear: both;
+  color: #c56b73;
+  font-size: 30px;
+  text-align: center; }
+  .divider a {
+    color: #c56b73; }
+
+.education,
+.projects {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px 5px;
+  clear: both;
+  height: 400px; }
+  .education h2,
+  .projects h2 {
+    color: #fff;
+    font-family: 'Sansita', sans-serif;
+    text-align: center; }
+  .education img,
+  .projects img {
+    height: 175px;
+    margin-left: 20px;
+    width: 300px; }
+
+/*# sourceMappingURL=main.css.map */
